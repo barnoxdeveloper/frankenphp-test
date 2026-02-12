@@ -26,7 +26,7 @@ class StressTestController extends Controller
 
         // CPU Stress: Run Hash::make in a loop 15 times
         for ($i = 0; $i < 15; $i++) {
-            Hash::make('benchmark-password');
+            Hash::make('benchmark-passwordd');
         }
 
         // Database I/O: Insert a record with 50KB random string
